@@ -1,0 +1,21 @@
+sudo gem install bundler
+cd Escritorio/CC3S2/RSpec
+bundle init
+con eso se crea un Gemfile, luego hacemos
+nano Gemfile
+y editamos :
+
+# frozen_string_literal: true
+
+source "https://rubygems.org"
+
+gem "rspec"
+
+# gem "rails"
+
+Ctr+X
+y presionamos S para guardar
+
+Luego:
+
+bundle install --path .bundle
